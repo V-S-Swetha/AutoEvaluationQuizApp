@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Result</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <h1>{{ user_name }}, your score is {{ score }} out of {{ total_questions }}</h1>
+    <a href="{{ url_for('index') }}" class="button">Go back to homepage</a>
+</body>
+</html>
